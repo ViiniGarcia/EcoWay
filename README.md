@@ -1,2 +1,2 @@
 # EcoWay
- App para manipulação de Api CRUD
+ App em Flutter para manipulação de Api (adicionar, visualizar e excluir itens).
