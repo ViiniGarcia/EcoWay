@@ -146,6 +146,7 @@ class _CadastroState extends State<Cadastro> {
           itemCount: _empresas.length,
           itemBuilder: (context, index){
             final empresa = _empresas[index];
+            print(_empresas.length);
             return Dismissible(
                 key: Key(empresa.toString()),
                 child: _cardEmpresa(context, empresa),
